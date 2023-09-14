@@ -1,6 +1,6 @@
 # .gitignore
 # Fichiers de configuration
-.streamlit/secrets.toml
+.streamlit/config.toml
 .env
 
 # Dossiers de dépendances

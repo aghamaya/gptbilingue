@@ -1,2 +1,2 @@
 # setup.sh
-echo "source .env" >> .streamlit/secrets.toml
+echo "source .env" >> .streamlit/config.toml
