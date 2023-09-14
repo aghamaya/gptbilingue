@@ -1,1 +1,10 @@
+# .gitignore
+# Fichiers de configuration
+.streamlit/secrets.toml
 .env
+
+# Dossiers de dépendances
+__pycache__/
+.venv/
+dist/
+build/
