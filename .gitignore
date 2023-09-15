@@ -3,7 +3,7 @@
 .streamlit/config.toml
 .env
 
-# Dossiers de dépendances
+# Dossiers des dépendances
 __pycache__/
 .venv/
 dist/
