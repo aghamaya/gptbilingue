@@ -15,7 +15,7 @@ def get_message_history():
 def main():
     st.markdown("<h2 style='text-align: center; color: navy;'>Assistant Intelligent programmé pour repondre à vos questions sur le Bilinguisme</h2>", unsafe_allow_html=True)
     st.markdown("<h5 style='text-align: center; color: green;'>Auteur : Hamaya AG-ABDOULAYE</h5>", unsafe_allow_html=True)
-    st.markdown("<h6 style='color: blue;'>Ce chatbot est réglé sur le modéle gpt-3.5-turbo de ChatGPT, les prédictions peuvent souvent produire des informations inexactes sur des personnes, des lieux ou des faits. Son assistant a été programmé sur la situation de l'enseignement bilingue dans les pays Francophone d'Afrique, le plus souvant partenaires du programme ELAN. N'hésitez pas à rebondir sur les reponses prédites, le relancé pour recadrer et ainsi tiré profit du meilleir de cet assistant intelligent</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='color: blue;'>Ce chatbot est réglé sur le modéle gpt-3.5-turbo de ChatGPT, les prédictions peuvent souvent produire des informations inexactes sur des personnes, des lieux ou des faits. Son assistant a été programmé sur la situation de l'enseignement bilingue dans les pays Francophones d'Afrique, le plus souvant partenaires du programme ELAN. N'hésitez pas à rebondir sur les reponses prédites, le relancé pour recadrer et ainsi tiré profit du meilleur de cet assistant intelligent</h6>", unsafe_allow_html=True)
 
     st.sidebar.header("PARAMETRES")
     slider1 = st.sidebar.slider("Max tokens", min_value=80, max_value=500, value=270, step=10)
